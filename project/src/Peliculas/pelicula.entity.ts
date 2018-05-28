@@ -1,7 +1,7 @@
 import {Column, Entity, ManyToOne, OneToMany, PrimaryGeneratedColumn} from "typeorm";
 import {HistorialEntity} from "../historial/historial.entity";
-@Entity('usuario')
-export class UsuarioEntity {
+@Entity('pelicula')
+export class PeliculaEntity {
 
     @PrimaryGeneratedColumn()
     id: number;
@@ -10,25 +10,28 @@ export class UsuarioEntity {
     nombre: string;
 
     @Column({length: 500})
-    apellido: string;
+    descripcion: string;
 
     @Column({length: 500})
-    fechaNacimiento: string;
+    actores: string;
 
     @Column({length: 500})
-    pais: string;
+    genero: string;
 
     @Column({length: 500})
-    ciudad: string;
+    ano: string;
+
+    @Column({length: 500})
+    imagenPelicula: string;
+
+    @Column({length: 500})
+    trailer: string;
 
     @Column()
-    numeroTelefono: number;
-
-    @Column({length: 500})
-    correoElectronico: string;
+    puntuacion: number;
 
     @OneToMany(type => HistorialEntity, historial=> historial.usuarioId)
 
-    historialId:HistorialEntity[];
-}
+    historial:HistorialEntity[];
 
+}
