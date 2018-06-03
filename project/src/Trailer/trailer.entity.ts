@@ -1,5 +1,4 @@
 import {Column, Entity, ManyToOne, OneToMany, PrimaryGeneratedColumn} from "typeorm";
-import {UsuarioEntity} from "../usuario/usuario.entity";
 import {SerieEntity} from "../Serie/serie.entity";
 @Entity('trailer')
 export class TrailerEntity {
