@@ -1,6 +1,6 @@
 import {Column, Entity, ManyToOne, OneToMany, PrimaryGeneratedColumn} from "typeorm";
 import {UsuarioEntity} from "../usuario/usuario.entity";
-import {PeliculaEntity} from "../Peliculas/pelicula.entity";
+import {VideoEntity} from "../video/video.entity";
 @Entity('historial')
 export class HistorialEntity {
 
@@ -12,13 +12,8 @@ export class HistorialEntity {
     @Column()
     puntuacion: number;
 
-    @ManyToOne(type => UsuarioEntity, usuario=> usuario.historialId)
-    usuarioId:UsuarioEntity[];
-
-
-    @ManyToOne(type => PeliculaEntity, pelicula=> pelicula.historial)
-    historialId:PeliculaEntity[];
-
+    @ManyToOne(type => VideoEntity, video=> video.historialVideo)
+    videoHistorial:VideoEntity[];
 
 
 }

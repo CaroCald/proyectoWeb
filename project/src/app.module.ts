@@ -3,6 +3,8 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import {UsuarioEntity} from "./usuario/usuario.entity";
+import {HistorialEntity} from "./historial/historial.entity";
+import {PeliculaEntity} from "./Trailer/pelicula.entity";
 @Module({
   imports: [
       TypeOrmModule.forRoot({
@@ -15,7 +17,9 @@ import {UsuarioEntity} from "./usuario/usuario.entity";
           entities: [__dirname + '/../**/*.entity{.ts,.js}'],
           synchronize: true,
       }),
-      TypeOrmModule.forFeature([UsuarioEntity])
+      TypeOrmModule.forFeature([UsuarioEntity, HistorialEntity, PeliculaEntity])
+
+
   ],
   controllers: [AppController],
     providers: [AppService],
