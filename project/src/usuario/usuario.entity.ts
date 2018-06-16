@@ -3,8 +3,7 @@ import {SerieEntity} from "../Serie/serie.entity";
 @Entity('usuario')
 export class UsuarioEntity {
 
-    @PrimaryGeneratedColumn()
-    id: number;
+    @PrimaryGeneratedColumn()    id: number;
 
     @Column({length: 500})
     tipoUsuario: string;

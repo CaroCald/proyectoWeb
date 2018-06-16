@@ -1,5 +1,4 @@
 import {ArgumentMetadata, BadRequestException, Injectable, PipeTransform} from '@nestjs/common'
-import {HISTORIAL_SCHEMA} from "./historial.schema";
 import * as Joi from 'joi';
 @Injectable()
 export class UsuarioPipe implements PipeTransform {
@@ -8,7 +7,6 @@ export class UsuarioPipe implements PipeTransform {
     }
 
     transform(valorEnBrutoDelRequest: any, metadatosDelosDecoradorasDelNestJs: ArgumentMetadata) {
-        this.schema = HISTORIAL_SCHEMA;
         const {
             error
         } = Joi.validate(valorEnBrutoDelRequest, this.schema);
