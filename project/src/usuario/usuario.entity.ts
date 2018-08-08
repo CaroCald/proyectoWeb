@@ -29,6 +29,9 @@ export class UsuarioEntity {
     @Column({length: 500})
     correoElectronico: string;
 
+   // @Column({length: 1000})
+   // jsonReconocimiento: string;
+
     @OneToMany(type => SerieEntity,serie=> serie.usuarioId)
 
     SerieId:SerieEntity[];

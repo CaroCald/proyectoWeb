@@ -4,9 +4,12 @@
     <list default="true" id="477ee87a-163e-4107-9489-36b416ff77ba" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/historial/historial.pipe.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/servicios/usuario.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/servicios/usuario.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/usuario/usuario.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/usuario/usuario.controller.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/src/usuario/usuario.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/usuario/usuario.entity.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/usuario/usuario.pipe.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/usuario/usuario.provider.ts" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/usuario/usuario.provider.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/tsconfig.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,22 +23,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="usuario.entity.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/usuario/usuario.entity.ts">
+      <file leaf-file-name="usuario.controller.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/src/usuario/usuario.controller.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="usuario.service.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/servicios/usuario.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="208">
+              <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
               <folding>
-                <element signature="e#0#42#0" expanded="true" />
+                <element signature="e#0#167#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -44,8 +38,8 @@
       <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/src/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="30" column="54" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
+            <state relative-caret-position="364">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -53,22 +47,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jwt.service.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/servicios/jwt.service.ts">
+      <file leaf-file-name="usuario.service.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/src/servicios/usuario.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+            <state relative-caret-position="72">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="usuario.controller.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/src/usuario/usuario.controller.ts">
+      <file leaf-file-name="main.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project/src/main.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="694">
-              <caret line="28" column="69" lean-forward="true" selection-start-line="28" selection-start-column="69" selection-end-line="28" selection-end-column="69" />
+            <state relative-caret-position="182">
+              <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
               <folding>
-                <element signature="e#0#113#0" expanded="true" />
+                <element signature="e#0#43#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,14 +96,18 @@
         <option value="$PROJECT_DIR$/project/src/Serie/serie.entity.ts" />
         <option value="$PROJECT_DIR$/project/src/historial/historial.entity.ts" />
         <option value="$PROJECT_DIR$/project/src/Trailer/trailer.entity.ts" />
-        <option value="$PROJECT_DIR$/project/src/usuario/usuario.entity.ts" />
         <option value="$PROJECT_DIR$/project/src/pipes/pipes.peliculas.ts" />
         <option value="$PROJECT_DIR$/project/src/guards/jwt-valido.guards.ts" />
         <option value="$PROJECT_DIR$/project/src/servicios/jwt.service.ts" />
-        <option value="$PROJECT_DIR$/project/src/app.module.ts" />
+        <option value="$PROJECT_DIR$/project/src/usuario/usuario-registro.controller.ts" />
         <option value="$PROJECT_DIR$/project/src/usuario/usuario.provider.ts" />
-        <option value="$PROJECT_DIR$/project/src/servicios/usuario.service.ts" />
+        <option value="$PROJECT_DIR$/project/tsconfig.json" />
+        <option value="$PROJECT_DIR$/project/src/guards/usuario.guard.ts" />
+        <option value="$PROJECT_DIR$/project/src/app.module.ts" />
+        <option value="$PROJECT_DIR$/project/src/Auth/auth.controller.ts" />
+        <option value="$PROJECT_DIR$/project/src/usuario/usuario.entity.ts" />
         <option value="$PROJECT_DIR$/project/src/usuario/usuario.controller.ts" />
+        <option value="$PROJECT_DIR$/project/src/servicios/usuario.service.ts" />
       </list>
     </option>
   </component>
@@ -137,7 +135,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,6 +171,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -223,24 +221,41 @@
       <workItem from="1528142400695" duration="2688000" />
       <workItem from="1528212398382" duration="1826000" />
       <workItem from="1529111080062" duration="6747000" />
+      <workItem from="1529203644561" duration="5047000" />
+      <workItem from="1529357101604" duration="59000" />
+      <workItem from="1530575076532" duration="2660000" />
+      <workItem from="1530657023796" duration="9338000" />
+      <workItem from="1531545189316" duration="583000" />
+      <workItem from="1531596983798" duration="1657000" />
+      <workItem from="1532975645209" duration="3152000" />
+      <workItem from="1532981990688" duration="2262000" />
+      <workItem from="1533003310908" duration="27000" />
+      <workItem from="1533138293799" duration="1026000" />
+      <workItem from="1533416723331" duration="2263000" />
+      <workItem from="1533423032839" duration="1180000" />
+      <workItem from="1533581776563" duration="2005000" />
+      <workItem from="1533676020352" duration="1675000" />
+      <workItem from="1533742191300" duration="2407000" />
+      <workItem from="1533754895330" duration="1875000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29485000" />
+    <option name="totallyTimeSpent" value="66701000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="11" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31551978" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1566618" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32924962" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32924962" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32465544" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.42725882" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -254,6 +269,13 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../Calderon-Carolina-Examen-Web/project/src/app.controller.spec.js" />
+        <option value="$PROJECT_DIR$/../Calderon-Carolina-Examen-Web/project/src/app.controller.js" />
+        <option value="$PROJECT_DIR$/../Calderon-Carolina-Examen-Web/project/src/app.service.js" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -284,24 +306,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/src/Trailer/pelicula.schema.ts" />
-    <entry file="file://$PROJECT_DIR$/project/src/usuario/usuario.schema.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/historial/historial.pipe.ts" />
-    <entry file="file://$PROJECT_DIR$/project/src/Trailer/pelicula.pipe.ts" />
-    <entry file="file://$PROJECT_DIR$/project/src/historial/historial.entity.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Trailer/pelicula.entity.ts" />
     <entry file="file://$PROJECT_DIR$/project/src/usuario/usuario.entity.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -425,13 +435,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Trailer/pelicula.schema.ts" />
-    <entry file="file://$PROJECT_DIR$/project/src/usuario/usuario.schema.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Trailer/pelicula.pipe.ts" />
     <entry file="file://$PROJECT_DIR$/project/src/app.controller.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -477,6 +480,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/guards/jwt-valido.guards.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="9" column="62" lean-forward="true" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/usuario/usuario.provider.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="69" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/node_modules/@nestjs/core/guards/guards-consumer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/node_modules/@nestjs/core/router/router-execution-context.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="113" column="58" selection-start-line="113" selection-start-column="58" selection-end-line="113" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/pipes/pipes.peliculas.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -484,10 +522,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/usuario/usuario.schema.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/guards/usuario.guard.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/servicios/jwt.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        <state relative-caret-position="10">
+          <caret line="2" selection-start-line="2" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Auth/auth.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/usuario/usuario.entity.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/servicios/usuario.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/usuario/usuario.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#167#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -497,63 +590,6 @@
           <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="30" column="54" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/guards/jwt-valido.guards.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="9" column="62" lean-forward="true" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/usuario/usuario.provider.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/usuario/usuario.entity.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/servicios/usuario.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/usuario/usuario.controller.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="694">
-          <caret line="28" column="69" lean-forward="true" selection-start-line="28" selection-start-column="69" selection-end-line="28" selection-end-column="69" />
-          <folding>
-            <element signature="e#0#113#0" expanded="true" />
           </folding>
         </state>
       </provider>

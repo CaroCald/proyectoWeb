@@ -11,6 +11,7 @@ import {VideoEntity} from "./video/video.entity";
 import {UsuarioController} from "./usuario/usuario.controller";
 import {UsuarioService} from "./servicios/usuario.service";
 import {JwtService} from "./servicios/jwt.service";
+import {AuthController} from "./Auth/auth.controller";
 @Module({
   imports: [
       TypeOrmModule.forRoot({
@@ -27,7 +28,7 @@ import {JwtService} from "./servicios/jwt.service";
 
 
   ],
-  controllers: [AppController, UsuarioController],
+  controllers: [AppController, UsuarioController, AuthController],
     providers: [AppService, UsuarioService, JwtService],
 })
 export class AppModule {}

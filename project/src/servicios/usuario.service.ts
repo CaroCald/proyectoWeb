@@ -1,35 +1,32 @@
-import {Inject, Injectable} from "@nestjs/common";
-import {Connection, Repository} from "typeorm";
+import {Inject, Injectable, Req, Res} from "@nestjs/common";
+import {Connection, getConnection, Repository} from "typeorm";
 import {UsuarioEntity} from "../usuario/usuario.entity";
+import {InjectRepository} from "@nestjs/typeorm";
 
 @Injectable()
 export class UsuarioService {
 
-    constructor(){
-
-    }
-    arregloUsuarios: Usuario[] = [];
-
-    agregarUsuario(usuario: Usuario): Usuario[] {
-        this.arregloUsuarios.push(usuario);
-        return this.arregloUsuarios;
+    constructor(@InjectRepository(UsuarioEntity)
+                private readonly userRepository: Repository<UsuarioEntity>){
     }
 
-    borrarUsuario(usuario: Usuario) {
-        const indice = this.arregloUsuarios
-            .findIndex(
-                (usuarioObjeto) => usuarioObjeto === usuario);
-
-        this.arregloUsuarios.slice(indice, 1);
-        return this.arregloUsuarios;
+    async busquedaUser(correo): Promise<UsuarioEntity[]> {
+        return await getConnection().getRepository(UsuarioEntity)
+            .createQueryBuilder("usuario").where({
+                correo: correo
+            }).getMany();
     }
+    async llenar(): Promise<UsuarioEntity[]> {
+        return await this.userRepository.find();
+    }
+
 
 }
 
 
 export class Usuario {
     constructor(
-                public tipo:string,
+                public tipoUsuario:string,
                 public nombre: string,
                 public apellido: string,
                 public fechaNacimiento: number,
